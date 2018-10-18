@@ -10,7 +10,8 @@ String in single quotes cannot hold any other single quoted character in it othe
 won’t recognize where to start and end the string. To overcome this error, use of double quotes is preferred, because it 
 helps in creation of Strings with single quotes in them. For strings which contain Double quoted words in them, use of 
 triple quotes is suggested.Along with this, triple quotes also allow the creation of multiline strings.
-#  Example:
+
+## Example:
 
 <pre>
 # Python Program for 
@@ -45,6 +46,7 @@ print(String1)
 </pre>
 
 ## Output:
+
 <pre>
 String with the use of Single Quotes: 
 Welcome to the Singh World
@@ -63,4 +65,7 @@ Singh
     </pre>
     
    
+   ## Accessing characters in Python:
    
+In Python, individual characters of a String can be accessed by using the method of Indexing, to access a range of characters in the String, method of slicing is used. Slicing in a String is done by using a Slicing operator (colon). Indexing allows negative address references to access characters from the back of the String, e.g. -1 refers to the last character, -2 refers to the second last character and so on.
+While accessing an index out of the range will cause an IndexError. Only Integers are allowed to be passed as an index, float or other types will cause a TypeError.
