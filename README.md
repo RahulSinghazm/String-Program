@@ -126,3 +126,19 @@ ksForGee
 ## Deleting/Updating from a String
 In Python, Updation or deletion of characters from a String is not allowed. This will cause an error because item assignment or item deletion from a String is not supported. Although deletion of entire String is possible with the use of a built-in del keyword. This is because Strings are immutable, hence elements of a String cannot be changed once it has been assigned. Only new strings can be reassigned to the same name
 
+## Updation of a character:
+<pre>
+# Python Program to Update 
+# character of a String 
+  
+String1 = "Hello, I'm a Singh"
+print("Initial String: ") 
+print(String1) 
+  
+# Updating a character  
+# of the String 
+String1[2] = 'p'
+print("\nUpdating character at 2nd Index: ") 
+print(String1)
+
+</pre>
