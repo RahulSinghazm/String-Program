@@ -289,3 +289,25 @@ print("\nPrinting Raw String in HEX Format: ")
 print(String1) 
 </pre>
 
+## Output:
+<pre>
+Initial String with use of Triple Quotes: 
+I'm a "Geek"
+
+Escaping Single Quote: 
+I'm a "Geek"
+
+Escaping Double Quotes: 
+I'm a "Geek"
+
+Escaping Backslashes: 
+C:\Python\Geeks\
+
+Printing in HEX with the use of Escape Sequences: 
+This is Geeks in HEX
+
+Printing Raw String in HEX Format: 
+This is \x47\x65\x65\x6b\x73 in \x48\x45\x58
+</pre>
+
+
