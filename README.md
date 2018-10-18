@@ -405,7 +405,7 @@ The value of Integer1 is 12.3457
 </pre>
 
 ## String constants:
-#### BUILT-IN FUNCTION	      DESCRIPTION
+<h4>BUILT-IN FUNCTION	      DESCRIPTION</h4>
 <pre>
 
 string.                       ascii_letters	Concatenation of the ascii_lowercase and ascii_uppercase constants.
