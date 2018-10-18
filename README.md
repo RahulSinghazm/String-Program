@@ -142,3 +142,14 @@ print("\nUpdating character at 2nd Index: ")
 print(String1)
 
 </pre>
+
+## Output:
+
+#### Error:
+<pre>
+Traceback (most recent call last):
+File “/home/360bb1830c83a918fc78aa8979195653.py”, line 10, in 
+String1[2] = ‘p’
+TypeError: ‘str’ object does not support item assignment
+
+</pre>
