@@ -211,3 +211,81 @@ del String1[2]
 TypeError: ‘str’ object doesn’t support item deletion
 
 </pre>
+
+
+## Deleting Entire String:
+Deletion of entire string is possible with the use of del keyword. Further, if we try to print the string, this will produce an error because String is deleted and is unavailable to be printed.
+
+## Example
+<pre>
+# Python Program to Delete 
+# entire String 
+  
+String1 = "Hello, I'm a Geek"
+print("Initial String: ") 
+print(String1) 
+  
+# Deleting a String 
+# with the use of del 
+del String1  
+print("\nDeleting entire String: ") 
+print(String1)
+
+</pre>
+
+## Output:
+
+#### Error:
+<pre>
+Traceback (most recent call last):
+File “/home/e4b8f2170f140da99d2fe57d9d8c6a94.py”, line 12, in 
+print(String1)
+NameError: name ‘String1’ is not defined
+</pre>
+
+
+## Escape Sequencing in Python:
+While printing Strings with single and double quotes in it causes SyntaxError because String already contains Single and Double Quotes and hence cannot be printed with the use of either of these. Hence, to print such a String either Triple Quotes are used or Escape sequences are used to print such Strings.
+Escape sequences start with a backslash and can be interpreted differently. If single quotes are used to represent a string, then all the single quotes present in the string must be escaped and same is done for Double Quotes.
+To ignore the escape sequences in a String, r or R is used, this implies that the string is a raw string and escape sequences inside it are to be ignored.
+
+
+## Example:
+<pre>
+#Python Program for 
+#Escape Sequencing  
+#of String 
+  
+#Initial String 
+String1 = '''I'm a "Geek"'''
+print("Initial String with use of Triple Quotes: ") 
+print(String1) 
+  
+#Escaping Single Quote  
+String1 = 'I\'m a "Geek"'
+print("\nEscaping Single Quote: ") 
+print(String1) 
+  
+#Escaping Doule Quotes 
+String1 = "I'm a \"Geek\""
+print("\nEscaping Double Quotes: ") 
+print(String1) 
+  
+#Printing Paths with the  
+#use of Escape Sequences 
+String1 = "C:\\Python\\Geeks\\"
+print("\nEscaping Backslashes: ") 
+print(String1) 
+  
+# Printing Geeks in HEX 
+String1 = "This is \x47\x65\x65\x6b\x73 in \x48\x45\x58"
+print("\nPrinting in HEX with the use of Escape Sequences: ") 
+print(String1) 
+  
+# Using raw String to  
+# ignore Escape Sequences 
+String1 = r"This is \x47\x65\x65\x6b\x73 in \x48\x45\x58"
+print("\nPrinting Raw String in HEX Format: ") 
+print(String1) 
+</pre>
+
