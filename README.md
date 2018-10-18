@@ -155,16 +155,32 @@ TypeError: ‘str’ object does not support item assignment
 
 </pre>
 
-Updating Entire String:
 
+## Example
+#### Updating Entire String:
+
+<pre>
 # Python Program to Update 
 # entire String 
   
-String1 = "Hello, I'm a Geek"
+String1 = "Hello, I'm a Singh"
 print("Initial String: ") 
 print(String1) 
   
 # Updating a String 
-String1 = "Welcome to the Geek World"
+String1 = "Welcome to the Singh World"
 print("\nUpdated String: ") 
 print(String1) 
+</pre>
+
+## Output:
+
+<pre>
+Initial String: 
+Hello, I'm a Singh
+
+Updated String: 
+Welcome to the Singh World
+</pre>
+
+
