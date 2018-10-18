@@ -183,4 +183,31 @@ Updated String:
 Welcome to the Singh World
 </pre>
 
+## Deletion of a character:
 
+#### Example:
+<pre>
+# Python Program to Delete 
+# characters from a String 
+  
+String1 = "Hello, I'm a Singh"
+print("Initial String: ") 
+print(String1) 
+  
+# Deleting a character  
+# of the String 
+del String1[2]  
+print("\nDeleting character at 2nd Index: ") 
+print(String1) 
+</pre>
+
+## Output:
+
+#### Error:
+<pre>
+Traceback (most recent call last):
+File “/home/499e96a61e19944e7e45b7a6e1276742.py”, line 10, in 
+del String1[2]
+TypeError: ‘str’ object doesn’t support item deletion
+
+</pre>
