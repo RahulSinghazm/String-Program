@@ -104,3 +104,21 @@ print(String1[3:-2])
 </pre>
 
 
+## Output:
+<pre>
+Initial String: 
+GeeksForGeeks
+
+First character of String is: 
+G
+
+Last character of String is: 
+s
+
+Slicing characters from 3-12: 
+ksForGeek
+
+Slicing characters between 3rd and 2nd last character: 
+ksForGee
+
+</pre>
