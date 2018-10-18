@@ -405,9 +405,8 @@ The value of Integer1 is 12.3457
 </pre>
 
 ## String constants:
+#### BUILT-IN FUNCTION	      DESCRIPTION
 <pre>
-#### BUILT-                        IN FUNCTION	DESCRIPTION
-
 
 string.                       ascii_letters	Concatenation of the ascii_lowercase and ascii_uppercase constants.
 string.ascii_lowercase	      Concatenation of lowercase letters
@@ -434,9 +433,9 @@ replace()	                    returns a copy of the string where all occurrences
 
 
 ## Deprecated string functions:
-<pre>
-#### BUILT-IN FUNCTION	                                          DESCRIPTION
 
+#### BUILT-IN FUNCTION	      DESCRIPTION
+<pre>
 
 string.Isdecimal	            Returns true if all characters in a string are decimal
 String.Isalnum	              Returns true if all the characters in a given string are alphanumeric.
