@@ -495,3 +495,38 @@ Explanation : In the string it is not possible to make the
 Recommended: Please try your approach on {IDE} first, before moving on to the solution.
 
 [TEXT TO SHOW](https://github.com/RahulSinghazm/String-Program/blob/master/README.md)
+
+
+# Working with Method of string:-
+
+## Example:
+
+<pre>
+a="rahul singh"
+print(a)
+print(len(a))
+print(a.capitalize())
+print(a.title())
+print(a.upper())
+print(a.lower())
+print(a.isdigit())
+b="12345"
+print(b)
+print(b.isdigit())
+
+</pre>
+
+## Output:
+
+<pre>
+rahul singh
+11
+Rahul singh
+Rahul Singh
+RAHUL SINGH
+rahul singh
+False
+12345
+True
+
+</pre>
